@@ -1,0 +1,23 @@
+.contact-list-container {
+  display: flex;
+  width: 80vw;
+  margin-left: 30px;
+  flex-direction: column;
+}
+.contact-list-container__row {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  align-items: center;
+}
+.contact-list-container__row > * {
+    flex: 1;
+    width: 100%;
+}
+.contact-list-container__column-heads__title {
+  font-weight: 700;
+  font-family: "SF Mono";
+}
+button {
+    margin-right: 20px;
+}
